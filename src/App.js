@@ -1,15 +1,23 @@
 
-import './App.css';
+
 import React from 'react';
- import Container from './components/Container';
+import ReactDOM from 'react-dom';
+
+//import Container from './components/Container';
+//import Person from './components/Person'
+//import User from './components/User'
+//import Counter from './components/Counter';
+import But from './components/Button';
 
 function App() {
+ 
   
   return (
    <div>
-
-      <Container/>
-    </div>
+   {/* // <Counter />  */}
+      <But/>
+  </div>
+   
   );
 }
 
